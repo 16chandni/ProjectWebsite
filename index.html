@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+       
+        header{
+            background-color: black;
+            height: 8vh;
+            
+        }
+        li{
+            color: aliceblue;
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+            margin: 18px;
+            
+        }
+        .container{
+            
+            height: 100vh;
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 400px;
+            justify-content: center;
+            align-content: space-around;
+            
+        }
+        .box{
+            background-color: rgb(233, 189, 124);
+            color: aliceblue;
+            border: 2px solid white;
+            height: 20vh;
+            width: 50vh;
+            
+        }
+        body{
+            background-color: green;
+        }
+        
+        @media screen and (max-width:1000px) {
+            body{
+                background-color:red;
+            }
+            
+        }
+        @media screen and (max-width:600px) {
+            body{
+                background-color:yellow;
+            }
+            
+        }
+       
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+    </div>
+</body>
+</html>
