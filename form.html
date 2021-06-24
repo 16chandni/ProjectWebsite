@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+    body{
+        background-image: url(form.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        cursor: pointer;
+    }
+    .container{
+        border: 2px solid #ffffff;
+        border-radius: 50px;
+        margin: 50px 200px;
+        padding: 9px 5px;
+        text-align: center;
+        font-size: 15px;
+    
+    }
+    .container input{
+        width: 400px;
+        text-align: center;
+    }
+    .container button{
+        justify-content: right;
+        margin: 0px 100px;
+        width: 400px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form>
+        Delivery method:
+        <select>
+            <option>Choose delivery method</option>
+            <option>pickup</option>
+            <option>Dining</option>
+            <option>catering in event</option>
+        </select><br>
+        <h1>Client information</h1><br>
+       Name:      <input type="text" placeholder="Enter your name"><br>
+       Address:  <input type="text" placeholder="Enter your Address"><br>
+       E-mail:  <input type="text" placeholder="Enter your Email-id"><br>
+       Phone number:  <input type="number" placeholder="Enter your Phone no."><br>
+       Alternate no.:  <input type="number" placeholder="Enter your Phone no."><br>
+       Number of people:  <input type="number" placeholder="No.of people"><br>
+       Number of table:  <input type="number" placeholder="no.of table"><br>
+       
+       <h1>Date information</h1>
+     
+       <h3> Pickup:</h3>
+       Date <input type="date" id=""><br><br>
+       Time  : <input type="time"><br>
+       
+       <h2>Payment Information</h2><br>
+       Amount: <input type="number" placeholder="in rupees"><br><br>
+       Payment Method:
+       <select>
+           <option>choose payment method</option>
+        <option>Cheque</option>
+        <option>Cash on delivery</option>
+        <option>Credit card</option>
+    </select><br><br><br><br>
+    <button class="btn">
+        SUBMIT
+    </button>
+     
+    </form>
+    </div>
+</body>
+</html>
