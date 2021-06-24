@@ -1,0 +1,140 @@
+body{
+    background-image: url(restaurant-interior.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.left {
+             /* border: 2px solid green; */
+             position: absolute;
+             top: 10px;
+             left: 20px;
+             display: inline-block;
+             margin: 12px auto;
+             
+      
+
+}
+.mid {
+            display: block;
+            width: 50%;
+            /* border: 2px solid deeppink; */
+            margin: 70px 150px;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: 30px;
+    
+    
+}
+.navbar li a:hover, .navbar li a.active{
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+.right{
+
+/* border: 2px solid yellow; */
+position: absolute;
+right: 1%;
+top: 20px;
+display: inline-block;
+
+}
+.btn{
+     padding: 12px 30px;
+     cursor: pointer;
+     background-color: brown;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     font-size: 20px;
+     font-family: 'Baloo Bhai 2', cursive;
+
+}
+.btn:hover{
+    text-decoration: underline;
+    color: black;
+}
+.container{
+    /* border: 2px solid white; */
+    border-radius: 30px;
+    margin: 100px 250px;
+    height: 400px;
+
+}
+h1{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: brown;
+    margin: 20px 140px;
+    
+    color: white;
+    font-size: 40px;
+}
+.form input{
+    width: 500px;
+    height: 20px;
+    margin: 4px 100px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.container button{
+text-align: center;
+justify-content: center;
+margin: 4px 140px;
+padding: 4px;
+width: 400px;
+height: 35px;
+background-color: black;
+}
+
+.container button:hover{
+    background-color: white;
+    color: brown;
+    text-decoration: underline;
+}
+.main{
+border: 2px solid black;
+
+
+}
+.formbooking{
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: yellow;
+    position: absolute;
+    text-align: center;
+    color: black;
+    margin: 200px 900px;
+    width: 300px;
+    height: 130px;
+    font-size: 30px
+}
+
+.clicking button{
+    background-color: brown;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-bottom: 70px;
+    width: 300px;
+}
+.clicking button a{
+    text-decoration: none;
+    color: white;
+}
